@@ -5,7 +5,7 @@ import (
 	"github.com/streamingfast/logging"
 )
 
-var zlog, tracer = logging.ApplicationLogger("sink-pubsub", "github.com/streamingfast/substreams-sink-pubsub/cmd/substreams-sink-pubsub")
+var zlog, tracer = logging.ApplicationLogger("sink-pubsub", "github.com/petitbon/substreams-sink-pubsub/cmd/substreams-sink-pubsub")
 
 func init() {
 	cli.SetLogger(zlog, tracer)

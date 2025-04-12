@@ -9,7 +9,7 @@ import (
 	. "github.com/streamingfast/cli"
 	"github.com/streamingfast/cli/sflags"
 	"github.com/streamingfast/shutter"
-	sink "github.com/streamingfast/substreams-sink"
+	sink "github.com/petitbon/substreams-sink"
 	spubsub "github.com/streamingfast/substreams-sink-pubsub"
 	"github.com/streamingfast/substreams/manifest"
 )

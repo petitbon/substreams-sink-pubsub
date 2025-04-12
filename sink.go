@@ -9,7 +9,7 @@ import (
 
 	"cloud.google.com/go/pubsub"
 	"github.com/streamingfast/shutter"
-	sink "github.com/streamingfast/substreams-sink"
+	sink "github.com/petitbon/substreams-sink"
 	pbpubsub "github.com/streamingfast/substreams-sink-pubsub/pb/sf/substreams/sink/pubsub/v1"
 	pbsubstreamsrpc "github.com/streamingfast/substreams/pb/sf/substreams/rpc/v2"
 	"go.uber.org/zap"

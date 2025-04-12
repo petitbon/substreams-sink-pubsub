@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package sf.substreams.sink.pubsub.v1;
 
-option go_package = "github.com/streamingfast/substreams-sink-pubsub/pb/sf/substreams/sink/pubsub/v1;pbpubsub";
+option go_package = "github.com/petitbon/substreams-sink-pubsub/pb/sf/substreams/sink/pubsub/v1;pbpubsub";
 
 
 message Publish{
