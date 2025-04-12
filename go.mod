@@ -6,6 +6,7 @@ toolchain go1.24.2
 
 require (
 	cloud.google.com/go/pubsub v1.49.0
+	github.com/petitbon/substreams-sink v0.5.2
 	github.com/spf13/cobra v1.9.1
 	github.com/spf13/pflag v1.0.6
 	github.com/streamingfast/bstream v0.0.2-0.20250221181559-fb0809660f91
@@ -13,7 +14,6 @@ require (
 	github.com/streamingfast/logging v0.0.0-20250404134358-92b15d2fbd2e
 	github.com/streamingfast/shutter v1.5.0
 	github.com/streamingfast/substreams v1.15.2
-	github.com/petitbon/substreams-sink v0.5.2
 	github.com/stretchr/testify v1.10.0
 	go.uber.org/zap v1.27.0
 	google.golang.org/api v0.228.0

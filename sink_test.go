@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"github.com/streamingfast/bstream"
 	sink "github.com/petitbon/substreams-sink"
-	pbpubsub "github.com/streamingfast/substreams-sink-pubsub/pb/sf/substreams/sink/pubsub/v1"
+	pbpubsub "github.com/petitbon/substreams-sink-pubsub/pb/sf/substreams/sink/pubsub/v1"
 	"sort"
 	"sync"
 	"testing"
